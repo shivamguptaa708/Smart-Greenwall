@@ -1,4 +1,7 @@
-# Logs
+# =========================
+# React / Vite
+# =========================
+
 logs
 *.log
 npm-debug.log*
@@ -7,15 +10,31 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+node_modules/
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
+# =========================
+# Java / Spring Boot
+# =========================
+
+target/
+*.class
+
+.classpath
+.project
+.settings/
+
+**/paho*/
+
+# =========================
+# IDE / OS
+# =========================
+
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
