@@ -589,10 +589,6 @@
   border-left: 2px solid rgba(244, 163, 64, 0.5);
 }
 
-.alert-item .alert-severity.high + .alert-copy {
-  border-left-color: rgba(227, 93, 93, 0.7);
-}
-
 .alert-copy {
   display: flex;
   flex: 1;
